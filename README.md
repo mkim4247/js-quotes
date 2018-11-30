@@ -13,14 +13,14 @@ If you already have it installed, run the server by: `$ json-server --watch db.j
         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <footer class="blockquote-footer">Someone famous</footer>
         <br>
-        <button class='btn-success'>Likes: <span>0</span></button>
+        <button class='btn-success'>Supporters: <span>0</span></button>
         <button class='btn-danger'>Delete</button>
       </blockquote>
     </li>
   ```
 * Submitting the form creates a new quote and adds it to the list of quotes without having to refresh the page. (Whether you choose to optimistically render or not is up to you).
 * Clicking the delete button should delete the respective quote from the database and remove it from the page without having to refresh.
-* Clicking the like button will increase the number of likes for this particular comment in the database and on the page without having to refresh.
+* Clicking the support button will increase the number of supporters for this particular comment in the database and on the page without having to refresh.
 
 ### API Routes
 
